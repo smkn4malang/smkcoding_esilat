@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/moon"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:text="Sign Up"
+        android:textColor="#cccccc"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="#cccccc"
+        android:text="ID" />
+
+    <EditText
+        android:id="@+id/em"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:hint="Yourname"
+        android:textColor="#cccccc"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/pas"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/em"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#cccccc"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/wor"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pas"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:hint="Password here"
+        android:textColor="#cccccc"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wor"
+        android:layout_marginStart="40dp"
+        android:textColor="#cccccc"
+        android:layout_marginTop="20dp"
+        android:text="Email/no.HP" />
+
+    <EditText
+        android:id="@+id/surat"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mail"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#cccccc"
+        android:hint="puthere@email.com" />
+
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/surat"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#cccccc"
+        android:text="Term and Condition" />
+
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/check"
+        android:layout_marginStart="120.5dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#cccccc"
+        android:orientation="horizontal"
+        android:text="Submit" />
+
+</RelativeLayout>
