@@ -5,8 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_weight="1"
-    android:background="@drawable/moon"
-    android:orientation="vertical">
+    android:background="@drawable/latar"
+    android:orientation="vertical"
+    tools:context=".loginActivity">
 
     <TextView
         android:id="@+id/title"
@@ -15,7 +16,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="30dp"
         android:text="E-Silat"
-        android:textColor="#cccccc"
+        android:textColor="@color/colorTextPrimary"
         android:textSize="70sp" />
 
     <TextView
@@ -26,7 +27,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
         android:gravity="center"
-        android:textColor="#cccccc"
+        android:textColor="@color/colorTextPrimary"
         android:text="Email/ID" />
 
     <EditText
@@ -49,7 +50,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:textColor="#cccccc"
+        android:textColor="#111111"
         android:text="Password" />
 
     <EditText
@@ -61,7 +62,7 @@
         android:layout_marginTop="5dp"
         android:ems="10"
         android:hint="Password here"
-        android:textColor="#cccccc"
+        android:textColor="#111111"
         android:inputType="textPassword" />
 
     <LinearLayout
@@ -71,7 +72,7 @@
         android:layout_below="@id/word"
         android:layout_marginStart="40dp"
         android:layout_marginTop="35dp"
-        android:textColor="#cccccc"
+        android:textColor="#111111"
         android:orientation="horizontal">
 
         <Button
@@ -81,7 +82,7 @@
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
             android:text="SIGN IN"
-            android:textColor="#cccccc"
+            android:textColor="#111111"
             android:textSize="18sp" />
 
         <Button
@@ -92,10 +93,18 @@
             android:layout_marginStart="10dp"
             android:background="@color/colorPrimary"
             android:text="SIGN UP"
-            android:textColor="#cccccc"
+            android:textColor="#111111"
             android:textSize="18sp" />
 
     </LinearLayout>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_login"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/sign"
+        android:layout_marginTop="20dp"/>
 
 
     <Button
@@ -103,7 +112,7 @@
         style="?android:buttonBarButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/sign"
+        android:layout_below="@id/google_login"
         android:layout_marginStart="125dp"
         android:textColor="#AA0000"
         android:background="@android:color/transparent"

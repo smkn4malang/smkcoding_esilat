@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "223714909376",
+    "firebase_url": "https://e-silat.firebaseio.com",
+    "project_id": "e-silat",
+    "storage_bucket": "e-silat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223714909376:android:845f95de5b04b244",
+        "android_client_info": {
+          "package_name": "com.dycode.edu.vavibar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223714909376-o56uo1kg8cofrtu1njeug9pagjnidsq7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dycode.edu.vavibar",
+            "certificate_hash": "4229ee098e9393fb5933a8a625f5ebf27c410570"
+          }
+        },
+        {
+          "client_id": "223714909376-juripg6lso20hfuj67k03aieg9203kai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8NebuVaI6bp5sMusDGYqGOX2k8P715mI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223714909376-juripg6lso20hfuj67k03aieg9203kai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

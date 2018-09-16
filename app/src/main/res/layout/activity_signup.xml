@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_weight="1"
-    android:background="@drawable/moon"
-    android:orientation="vertical">
+    android:background="@drawable/latar"
+    tools:context=".signupActivity">
 
     <TextView
         android:id="@+id/judul"
@@ -15,7 +14,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="15dp"
         android:text="Sign Up"
-        android:textColor="#cccccc"
+        android:textColor="@color/colorTextPrimary"
         android:textSize="50sp" />
 
     <TextView
@@ -26,7 +25,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="30dp"
         android:gravity="center"
-        android:textColor="#cccccc"
+        android:textColor="@color/colorTextPrimary"
         android:text="ID" />
 
     <EditText
@@ -48,7 +47,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:textColor="#cccccc"
+        android:textColor="@color/colorTextPrimary"
         android:text="Password" />
 
     <EditText
@@ -68,7 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/wor"
         android:layout_marginStart="40dp"
-        android:textColor="#cccccc"
+        android:textColor="@color/colorTextPrimary"
         android:layout_marginTop="20dp"
         android:text="Email/no.HP" />
 
@@ -89,7 +88,7 @@
         android:layout_below="@id/surat"
         android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
-        android:textColor="#cccccc"
+        android:textColor="@color/colorTextPrimary"
         android:text="Term and Condition" />
 
     <Button
@@ -100,8 +99,10 @@
         android:layout_marginStart="120.5dp"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:textColor="#cccccc"
+        android:textColor="@color/colorTextPrimary"
         android:orientation="horizontal"
+        android:background="@drawable/button_color"
         android:text="Submit" />
+
 
 </RelativeLayout>
